@@ -1,0 +1,205 @@
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #5a2ca0; /* purple link color */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Intro section (image + text side by side) */
+.intro {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.intro img {
+  width: 140px;
+  height: 140px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #5a2ca0;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* General page setup */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #5a2ca0; /* purple */
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #333; /* current page darker */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Intro section (index page) */
+.intro {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.intro img {
+  width: 140px;
+  height: 140px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* Projects page */
+section {
+  margin: 30px 0;
+}
+
+section h2 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin: 0;
+}
+
+strong {
+  color: #5a2ca0; /* highlight important terms */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #5a2ca0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Resume page */
+.resume {
+  margin: 20px 0;
+}
+
+.resume h2 {
+  font-size: 1.4em;
+  margin-top: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume li {
+  margin: 10px 0;
+}
+
+.resume li strong {
+  font-size: 1.05em;
+  color: #000;
+}
+
+.resume .date {
+  float: right;
+  font-style: italic;
+  color: #555;
+}
+
+/* Contact page */
+.contact {
+  margin: 20px 0;
+}
+
+.contact h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact li {
+  margin: 8px 0;
+}
+
+.contact a {
+  color: #5a2ca0;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
