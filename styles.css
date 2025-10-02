@@ -1,7 +1,8 @@
 /* General page setup */
 body {
-  font-family: Arial, sans-serif;
-  color: #333;
+  background-color: #0A2647; /* Dark Blue Background */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* Modern, clean font */
+  color: #F0F8FF; /* Light off-white text */
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
@@ -23,73 +24,12 @@ header h1 {
 nav a {
   margin-left: 15px;
   text-decoration: none;
-  color: #5a2ca0; /* purple link color */
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Intro section (image + text side by side) */
-.intro {
-  display: flex;
-  align-items: flex-start;
-  margin: 20px 0;
-}
-
-.intro img {
-  width: 140px;
-  height: 140px;
-  margin-right: 20px;
-  border-radius: 8px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  font-size: 0.9em;
-  margin-top: 40px;
-}
-
-footer a {
-  color: #5a2ca0;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* General page setup */
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  line-height: 1.6;
-}
-
-/* Header section */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.2em;
-}
-
-nav a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #5a2ca0; /* purple */
+  color: #A0E9FF; /* Light Blue Link */
 }
 
 nav a.active {
   font-weight: bold;
-  color: #333; /* current page darker */
+  color: #FFFFFF; /* Brighter white for the active page */
 }
 
 nav a:hover {
@@ -125,7 +65,7 @@ section p {
 }
 
 strong {
-  color: #5a2ca0; /* highlight important terms */
+  color: #A0E9FF; /* Light Blue for important terms */
 }
 
 /* Footer */
@@ -136,10 +76,9 @@ footer {
 }
 
 footer a {
-  color: #5a2ca0;
+  color: #A0E9FF; /* Light Blue Link */
   text-decoration: none;
 }
-
 footer a:hover {
   text-decoration: underline;
 }
@@ -152,7 +91,7 @@ footer a:hover {
 .resume h2 {
   font-size: 1.4em;
   margin-top: 25px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(160, 233, 255, 0.4); /* Subtle Light Blue border */
   padding-bottom: 4px;
 }
 
@@ -167,13 +106,13 @@ footer a:hover {
 
 .resume li strong {
   font-size: 1.05em;
-  color: #000;
+  color: #FFFFFF; /* Brighter white for job titles */
 }
 
 .resume .date {
   float: right;
   font-style: italic;
-  color: #555;
+  color: #BDC3C7; /* Lighter, less prominent color for dates */
 }
 
 /* Contact page */
@@ -196,7 +135,7 @@ footer a:hover {
 }
 
 .contact a {
-  color: #5a2ca0;
+  color: #A0E9FF; /* Light Blue Link */
   text-decoration: none;
 }
 
